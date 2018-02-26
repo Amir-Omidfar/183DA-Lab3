@@ -1,7 +1,11 @@
+/* Code for getting measurement from all three sensors 
+* Two range sensors 
+* One MPU for angle  
+
+
 /*MPU9250 Sensor Test Code
  * By: stevenvo
  * Original Source: https://github.com/stevenvo/mpuarduino/blob/master/mpuarduino.ino
- * Edited for EE183DA by Nathan Pilbrough
  * 
  * Description: Basic code to test the functionality of the
  * MPU9250 sensor. Refer to the startup guide on CCLE for 
