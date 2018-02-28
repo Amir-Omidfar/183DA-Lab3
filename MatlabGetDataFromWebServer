@@ -1,0 +1,5 @@
+%Pretty Simple code for getting our sensor measurements from our web server (ESP 8266 Access point)
+url=['http://192.168.4.1'];
+S=webread(url);
+% S for this case would be of type struct with three values (d1,d2,heading)
+% Acces each data simply by S.d1, S.2 or S.heading
