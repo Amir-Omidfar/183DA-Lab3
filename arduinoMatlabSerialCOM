@@ -1,0 +1,30 @@
+#Serial communication between matlab and arduino simple case
+
+/*************Arduino code 
+
+int i=0;
+void setup() {
+  // put your setup code here, to run once:
+Serial.begin(115200);
+
+}
+
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  Serial.println(i); 
+  i++;
+  delay(100);
+}
+
+
+/****************Matlab code 
+
+s=serial('/dev/cu.usbmodem1421', 'BaudRate', 115200); //pick the right port of your usb connection
+fopen(s);
+%get the first 10 inputs from arduino it should be 1-10 for this case
+for i=1:10
+y(i)=fscanf(s,'%d');
+end;
+%close the serial connection
+fclose(s);
