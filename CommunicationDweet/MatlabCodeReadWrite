@@ -1,0 +1,21 @@
+% test12 is the name of our thing on Dweet
+
+% Address to request posting
+urWrite ='https://dweet.io:443/dweet/for/test12';
+%Create test12 thing on Dweet and make it have a strct
+% called data and set the data value equal to 1000
+webwrite(urWrite, 'data1',1000,'data2',2000);
+
+
+%To read from the Dweet 
+%{
+urRead=webread('https://dweet.io:443/get/latest/dweet/for/test12')
+
+%%to Extract the data
+urRead.with.content
+%%data1
+urRead.with.content.data1
+%%data2
+urRead.with.content.data1
+%}
+
