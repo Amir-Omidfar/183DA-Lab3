@@ -1,0 +1,21 @@
+#include "dweetESP8266.h"
+#define THIG_NAME  "test12"  // Put here your thing name
+#define WIFISSID "UCLA_WEB"
+#define PASSWORD ""
+
+dweet client;
+
+void setup() {
+    Serial.begin(115200);
+    delay(10);
+    client.wifiConnection(WIFISSID, PASSWORD);
+}
+String prevValue;
+void loop() {
+    // specifies the args of type "String"
+    char *key='\0';
+    String value = client.getDweet(THIG_NAME, key);
+    if (value.equals(prevValue))
+    Serial.println(value);
+    prevValue=value;
+}
