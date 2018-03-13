@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 MAR 2018 02:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 MAR 2018 02:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2458,7 +2458,7 @@ Package rerunfilecheck Info: File `v5.0.out' has not changed.
 Here is how much of TeX's memory you used:
  31476 strings out of 492995
  577622 string characters out of 6132704
- 720629 words of memory out of 5000000
+ 720641 words of memory out of 5000000
  34308 multiletter control sequences out of 15000+600000
  11060 words of font info for 44 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
@@ -2477,7 +2477,7 @@ live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on v5.0.pdf (23 pages, 2440259 bytes).
+Output written on v5.0.pdf (23 pages, 2440155 bytes).
 PDF statistics:
  351 PDF objects out of 1000 (max. 8388607)
  271 compressed objects within 3 object streams
